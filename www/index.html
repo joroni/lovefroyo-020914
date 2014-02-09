@@ -83,7 +83,7 @@ jQuery.extend(Drupal.settings, {"basePath":"\u002F", "pathPrefix":"", "ajaxPageS
 	</div>-->
 	<!-- /#header -->
 	<!--<div role="main" class="ui-content jqm-content jqm-fullwidth">-->
-	<div class="main-content" data-theme="a" data-role="content" style="margin-top:-15px;">
+	<div class="main-content" data-theme="a" data-role="content" style="margin-top:-40px;">
 		<div class="content-primary">
 			<div class="region region-content">
 				<div id="block-block-3" class="block block-block">
@@ -94,15 +94,15 @@ jQuery.extend(Drupal.settings, {"basePath":"\u002F", "pathPrefix":"", "ajaxPageS
 				<div id="block-user-login" class="block block-user">
 					<!--   <h2>User login</h2>-->
 					<div class="content">
-						<form action="/what.html?destination=what.html%3Fmag%3D1%26mag_q%3Dwhat.html" method="post" id="user-login-form" accept-charset="UTF-8">
+						<form action="./frontpage?destination=frontpage%3Fmag%3D1%26mag_q%3Dfrontpage" method="post" id="user-login-form" accept-charset="UTF-8">
 							<div>
 								<label for="edit-name">Username <span class="form-required" title="This field is required.">*</span></label>
 								<input type="text" id="edit-name" name="name" value="" size="15" maxlength="60" class="form-text required"/>
 								<label for="edit-pass">Password <span class="form-required" title="This field is required.">*</span></label>
 								<input type="password" id="edit-pass" name="pass" size="15" maxlength="128" class="form-text required"/>
 								<ul data-role="listview" data-inset="true" data-theme="a" data-divider-theme="a" data-count-theme="a" data-split-theme="a" data-split-icon="arrow-r">
-									<li data-icon="arrow-r" class="first"><a href="/user/register" title="Create a new user account.">Create new account</a></li>
-									<li data-icon="arrow-r" class="last"><a href="/user/password" title="Request new password via e-mail.">Request new password</a></li>
+									<li data-icon="arrow-r" class="first"><a href="./user/register" title="Create a new user account.">Create new account</a></li>
+									<li data-icon="arrow-r" class="last"><a href="./user/password" title="Request new password via e-mail.">Request new password</a></li>
 								</ul>
 								<input type="hidden" name="form_build_id" value="form-gtcOYY7jg-F4q7fYJ3EGpJSqVmxXVzKPxiBEEkIAxsk"/>
 								<input type="hidden" name="form_id" value="user_login_block"/>
