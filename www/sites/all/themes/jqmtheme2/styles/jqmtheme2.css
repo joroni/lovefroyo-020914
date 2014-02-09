@@ -225,16 +225,23 @@ div#nav-panel.ui-panel div.ui-panel-inner h2 {
     width: 100%;
 }
 */
-div.content-primary h2.title{
+
+
+body, input, select, textarea, button, .ui-btn {
+    font-family: 'Helvetica Neue', sans-serif;
+    font-size: 1em;
+    line-height: 1.2em !important;
+}
+
+div.content-primary h2.title {
     color: #ED088E !important;
-    font-family: 'Open Sans', 'Helvetica', sans-serif !important;
+    font-family: 'Helvetica Neue','Helvetica',Helvetica,Arial,sans-serif !important;
+    font-size: 2em;
     font-weight: 300;
-	font-size:2em;
-	left: -20px;
-    padding: 10px;
+    left: 0;
     position: relative;
     text-align: left;
-    top: -9px;
+    top: 0;
 }
 
 h2 a.ui-link {
