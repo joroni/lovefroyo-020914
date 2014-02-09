@@ -1,0 +1,364 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link rel="shortcut icon" href="./misc/favicon.ico" type="image/vnd.microsoft.icon" />
+<meta name="Generator" content="Drupal 7 (http://drupal.org)" />
+    <meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1" /> 
+    <title>Vote! Next week's flavor | Reis &amp; Irvy&#039;s</title>
+  <style type="text/css" media="all">@import url("./modules/system/system.base.css?n0oqud");</style>
+<style type="text/css" media="all">@import url("./modules/field/theme/field.css?n0oqud");
+@import url("./sites/all/modules/sociallogin/socialloginandsocialshare.css?n0oqud");
+@import url("./sites/all/modules/views/css/views.css?n0oqud");</style>
+<style type="text/css" media="all">@import url("./sites/all/modules/ctools/css/ctools.css?n0oqud");</style>
+<style type="text/css" media="all">@import url("./sites/all/themes/jqmtheme2/styles/mobile_jquery.css?n0oqud");
+@import url("./sites/all/themes/jqmtheme2/styles/jqmtheme2.css?n0oqud");
+@import url("./sites/all/themes/jqmtheme2/styles/poll-rtl.css?n0oqud");
+@import url("./sites/all/themes/jqmtheme2/styles/poll.css?n0oqud");</style>
+ <!--  <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Open+Sans:300,400,700">-->
+    <!-- <link rel="stylesheet" href="../sites/all/themes/jqmtheme2/foundation-icons/foundation-icons.css">
+     <script type="text/javascript" src="http://w.sharethis.com/button/buttons.js"></script>
+	 <script type="text/javascript">stLight.options({publisher:'[1bc31927-1da8-4f8a-918e-371ce15268c9]'});</script> 
+   -->
+
+  
+  
+<link rel="stylesheet" href="../sites/all/themes/jqmtheme2/foundation-icons/foundation-icons.css">
+     <link rel="stylesheet" href="../sites/all/themes/jqmtheme2/css/themes/default/jquery.mobile-1.4.0.min.css">
+    <link rel="stylesheet" href="../sites/all/themes/jqmtheme2/_assets/css/jqm-demos.css">
+    <link rel="stylesheet" href="../sites/all/themes/jqmtheme2/foundation-icons/foundation-icons.css">
+
+    <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Open+Sans:300,400,700">
+    
+    <script type="text/javascript" src="http://code.jquery.com/jquery-1.8.2.min.js"></script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+window.jQuery || document.write("<script src='/sites/all/modules/jquery_update/replace/jquery/1.8/jquery.min.js'>\x3C/script>")
+//--><!]]>
+</script>
+<script type="text/javascript" src="./misc/jquery.once.js?v=1.2"></script>
+<script type="text/javascript" src="./misc/drupal.js?n0oqud"></script>
+<script type="text/javascript" src="./sites/all/themes/mobile_jquery/scripts/mobile_jquery.js?n0oqud"></script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+jQuery.extend(Drupal.settings, {"basePath":"\u002F", "pathPrefix":"", "ajaxPageState":{"theme":"jqmtheme2", "theme_token":"wDp-K7CXZHxQ9ocEV1A3z_g-b20V5qpSfSuLBC13G-Q", "css":{"modules\u002Fsystem\u002Fsystem.base.css":1, "modules\u002Ffield\u002Ftheme\u002Ffield.css":1, "sites\u002Fall\u002Fmodules\u002Fsociallogin\u002Fsocialloginandsocialshare.css":1, "sites\u002Fall\u002Fmodules\u002Fviews\u002Fcss\u002Fviews.css":1, "sites\u002Fall\u002Fmodules\u002Fctools\u002Fcss\u002Fctools.css":1, "sites\u002Fall\u002Fthemes\u002Fjqmtheme2\u002Fstyles\u002Fmobile_jquery.css":1, "sites\u002Fall\u002Fthemes\u002Fjqmtheme2\u002Fstyles\u002Fjqmtheme2.css":1, "sites\u002Fall\u002Fthemes\u002Fjqmtheme2\u002F..\u002Ffoundation-icons\u002Ffoundation-icons.css":1, "sites\u002Fall\u002Fthemes\u002Fjqmtheme2\u002Fstyles\u002Fpoll-rtl.css":1, "sites\u002Fall\u002Fthemes\u002Fjqmtheme2\u002Fstyles\u002Fpoll.css":1}, "js":{"0":1, "1":1, "http:\u002F\u002Fcode.jquery.com\u002Fjquery-1.8.2.min.js":1, "2":1, "misc\u002Fjquery.once.js":1, "misc\u002Fdrupal.js":1, "sites\u002Fall\u002Fthemes\u002Fmobile_jquery\u002Fscripts\u002Fmobile_jquery.js":1}}});
+//--><!]]>
+</script>
+    
+	<script src="../sites/all/themes/jqmtheme2/js/jquery.js"></script>
+    <script src="../sites/all/themes/jqmtheme2/_assets/js/index.js"></script>
+    <script src="../sites/all/themes/jqmtheme2/js/jquery.mobile-1.4.0.min.js"></script>
+    
+    
+</head>
+<body class="html not-front not-logged-in one-sidebar sidebar-first page-vote" > 
+
+    <!--<div data-role="page" class="jqm-demos ui-responsive-panel" id="panel-responsive-page1" data-title="Panel responsive page">-->
+<div  data-theme="a" data-role="page" class="page type-interior">
+	<div id="header" 		 data-role="header" data-position="inline" data-theme="a" role="banner"> 	
+		<ul id="btn-list-header">
+			<li class="ui-btn-inner">
+			<a href="#nav-panel"><i class="step menu fi-align-justify size-36"></i></a>
+			</li>
+			<li class="ui-btn-inner">
+			<a href="/social"><i class="step menu fi-share size-36"></i></a>
+			</li>
+			<li class="ui-btn-inner">
+			<a href="/shout"><i class="step menu fi-comment size-36"></i></a>
+			</li>
+			<li class="ui-btn-inner">
+			<a href="/what"><i class="step menu fi-burst-new size-36"></i></a>
+			</li>
+			<li class="ui-btn-inner">
+			<a href="/vote"><i class="step menu fi-checkbox size-36"></i></a>
+			</li>
+		</ul>
+						<a href="index.html" title="Home		 " data-rel="home" data-icon="home" data-ajax="false"><span>Home		</span></a>
+		        
+									</div>
+	<!-- /#header -->
+	<!--<div role="main" class="ui-content jqm-content jqm-fullwidth">-->
+		
+		<div class="main-content"  data-theme="a" data-role="content">
+			<div class="content-primary">
+												<div class="ui-body ui-body-error messages error">
+<h2 class="element-invisible">Error message</h2>
+ <ul>
+  <li><em class="placeholder">Notice</em>: Undefined index:  href in <em class="placeholder">mobile_jquery_links__comment()</em> (line <em class="placeholder">398</em> of <em class="placeholder">/home/mobilere/public_html/sites/all/themes/mobile_jquery/includes/modules/theme.inc</em>).</li>
+  <li><em class="placeholder">Notice</em>: Undefined index:  href in <em class="placeholder">mobile_jquery_links__comment()</em> (line <em class="placeholder">398</em> of <em class="placeholder">/home/mobilere/public_html/sites/all/themes/mobile_jquery/includes/modules/theme.inc</em>).</li>
+  <li><em class="placeholder">Notice</em>: Undefined index:  href in <em class="placeholder">mobile_jquery_links__comment()</em> (line <em class="placeholder">398</em> of <em class="placeholder">/home/mobilere/public_html/sites/all/themes/mobile_jquery/includes/modules/theme.inc</em>).</li>
+  <li><em class="placeholder">Notice</em>: Undefined index:  href in <em class="placeholder">mobile_jquery_links__comment()</em> (line <em class="placeholder">398</em> of <em class="placeholder">/home/mobilere/public_html/sites/all/themes/mobile_jquery/includes/modules/theme.inc</em>).</li>
+  <li><em class="placeholder">Notice</em>: Undefined index:  href in <em class="placeholder">mobile_jquery_links__comment()</em> (line <em class="placeholder">398</em> of <em class="placeholder">/home/mobilere/public_html/sites/all/themes/mobile_jquery/includes/modules/theme.inc</em>).</li>
+ </ul>
+</div>
+																<h2 class="title" class="page-title">Vote! Next week's flavor				</h2>
+																  <div class="region region-content">
+    <div id="block-user-login" class="block block-user">
+
+    <h2>User login</h2>
+  
+  <div class="content">
+    <form action="/vote?destination=vote%3Fmag%3D1%26mag_q%3Dvote" method="post" id="user-login-form" accept-charset="UTF-8"><div>  <label for="edit-name">Username <span class="form-required" title="This field is required.">*</span></label>
+ <input type="text" id="edit-name" name="name" value="" size="15" maxlength="60" class="form-text required" />
+  <label for="edit-pass">Password <span class="form-required" title="This field is required.">*</span></label>
+ <input type="password" id="edit-pass" name="pass" size="15" maxlength="128" class="form-text required" />
+<ul data-role="listview" data-inset="true" data-theme="a" data-divider-theme="a" data-count-theme="a" data-split-theme="a" data-split-icon="arrow-r"><li data-icon="arrow-r" class="first"><a href="/user/register" title="Create a new user account.">Create new account</a></li>
+<li data-icon="arrow-r" class="last"><a href="/user/password" title="Request new password via e-mail.">Request new password</a></li>
+</ul><input type="hidden" name="form_build_id" value="form-OSTxIwfyOhdtthbKd7m-OX4ttGFUHKZn30RwAE16MnI" />
+<input type="hidden" name="form_id" value="user_login_block" />
+<div class="form-actions form-wrapper" id="edit-actions"><input type="submit" id="edit-submit" name="op" value="Log in" class="form-submit" /></div></div></form>  </div>
+</div>
+<div id="block-socialloginandsocialshare-share-sharing" class="block block-socialloginandsocialshare-share">
+
+    
+  <div class="content">
+    <div class="lrsharecontainer"></div>  </div>
+</div>
+<div id="block-system-main" class="block block-system">
+
+    
+  <div class="content">
+    <div class="view view-flavors view-id-flavors view-display-id-page view-dom-id-72049b6a3c8136367f76e9865db05d76">
+        
+  
+  
+      <div class="view-content">
+        <div class="views-row views-row-1 views-row-odd views-row-first views-row-last">
+    <div id="node-1" class="node node-poll node-teaser clearfix" about="./node/1.html" typeof="sioc:Post sioct:Poll">
+
+  
+        <h2 property="dc:title" datatype=""><a href="./node/1.html">Vote now what you like for next week</a></h2>
+    
+  
+  <div class="content">
+    <div class="field field-name-field-image field-type-image field-label-hidden"><div class="field-items"><div class="field-item even"><img typeof="foaf:Image" src="./sites/default/files/styles/medium/public/flavors.png?itok=PVy4kZZP" alt="" /></div></div></div><div class="poll">
+  
+<div class="text">Vanilla</div>
+<div class="bar">
+  <div style="width: 33%;" class="foreground"></div>
+</div>
+<div class="percent">
+  33% (1 vote)
+</div>
+
+<div class="text">Swirl</div>
+<div class="bar">
+  <div style="width: 67%;" class="foreground"></div>
+</div>
+<div class="percent">
+  67% (2 votes)
+</div>
+
+<div class="text">Chocolate</div>
+<div class="bar">
+  <div style="width: 0%;" class="foreground"></div>
+</div>
+<div class="percent">
+  0% (0 votes)
+</div>
+  <div class="total">
+    Total votes: 3  </div>
+  </div>
+   </div>
+
+
+</div>
+<div id="content-controls"> <div data-role="controlgroup" data-type="horizontal"><a href="./node/1.html" rel="tag" title="Vote now what you like for next week" data-role="button" data-icon="node-readmore">Read more<span class="element-invisible"> about Vote now what you like for next week</span></a><a href="./node/1.html" title="Jump to the first comment of this posting." property="sioc:num_replies" content="5" datatype="xsd:integer" rel="" data-role="button" data-icon="comment-comments">5 comments</a><a href="//user/login"><a href="/user/login?destination=node/1">Log in</a> or <a href="/user/register?destination=node/1">register</a> to post comments</a></div></div>
+<div id="comments-pop"><div id="comments" class="comment-wrapper" data-role="collapsible-set" data-collapsed="true">
+          <h2 class="title">Comments</h2>
+      
+  <a id="comment-1"></a>
+<div class="comment clearfix" about="/comment/1#comment-1" typeof="sioc:Post sioct:Comment"  data-role="collapsible" data-collapsed="false">
+
+
+
+
+  
+    <h3 property="dc:title" datatype="">Test</h3>
+  
+ <div class="user-info">
+ 	  <div class="user-picture">
+    <a href="/user/7" title="View user profile."><img typeof="foaf:Image" src="./sites/default/files/styles/thumbnail/public/pictures/picture-7-1391234119.jpg?itok=T0YWmILM" alt="Raymund&#039;s picture" title="Raymund&#039;s picture" /></a>  </div>
+ 	<span rel="sioc:has_creator"><a href="/user/7" title="View user profile." class="username" xml:lang="" about="/user/7" typeof="sioc:UserAccount" property="foaf:name" datatype="">Raymund</a></span> </div>
+<div class="comment-created"><span property="dc:date dc:created" content="2014-02-01T18:54:51+08:00" datatype="xsd:dateTime">Sat, 02/01/2014 - 18:54</span> </div>
+  <div class="content comment-content">
+    <span rel="sioc:reply_of" resource="./node/1.html" class="rdf-meta"></span><div class="field field-name-comment-body field-type-text-long field-label-hidden"><div class="field-items"><div class="field-item even" property="content:encoded">Test</div></div></div>    
+      </div>
+
+	<div class="btn-reply">
+  <div data-role="controlgroup" data-type="horizontal"><a href="/"><a href="/user/login?destination=node/1">Log in</a> or <a href="/user/register?destination=node/1">register</a> to post comments</a></div>  	</div>
+</div>
+<a id="comment-6"></a>
+<div class="comment clearfix" about="/comment/6#comment-6" typeof="sioc:Post sioct:Comment"  data-role="collapsible" data-collapsed="false">
+
+
+
+
+  
+    <h3 property="dc:title" datatype="">Test test test</h3>
+  
+ <div class="user-info">
+ 	  <div class="user-picture">
+    <a href="/user/16" title="View user profile."><img typeof="foaf:Image" src="./sites/all/themes/jqmtheme/images/user-default.jpg" alt="allanjones&#039;s picture" title="allanjones&#039;s picture" /></a>  </div>
+ 	<span rel="sioc:has_creator"><a href="/user/16" title="View user profile." class="username" xml:lang="" about="/user/16" typeof="sioc:UserAccount" property="foaf:name" datatype="">allanjones</a></span> </div>
+<div class="comment-created"><span property="dc:date dc:created" content="2014-02-06T09:42:40+08:00" datatype="xsd:dateTime">Thu, 02/06/2014 - 09:42</span> </div>
+  <div class="content comment-content">
+    <span rel="sioc:reply_of" resource="./node/1.html" class="rdf-meta"></span><div class="field field-name-comment-body field-type-text-long field-label-hidden"><div class="field-items"><div class="field-item even" property="content:encoded">Test test test</div></div></div>    
+      </div>
+
+	<div class="btn-reply">
+  <div data-role="controlgroup" data-type="horizontal"><a href="/"><a href="/user/login?destination=node/1">Log in</a> or <a href="/user/register?destination=node/1">register</a> to post comments</a></div>  	</div>
+</div>
+<a id="comment-7"></a>
+<div class="comment clearfix" about="/comment/7#comment-7" typeof="sioc:Post sioct:Comment"  data-role="collapsible" data-collapsed="false">
+
+
+
+
+  
+    <h3 property="dc:title" datatype="">Love from rules</h3>
+  
+ <div class="user-info">
+ 	  <div class="user-picture">
+    <a href="/user/16" title="View user profile."><img typeof="foaf:Image" src="./sites/all/themes/jqmtheme/images/user-default.jpg" alt="allanjones&#039;s picture" title="allanjones&#039;s picture" /></a>  </div>
+ 	<span rel="sioc:has_creator"><a href="/user/16" title="View user profile." class="username" xml:lang="" about="/user/16" typeof="sioc:UserAccount" property="foaf:name" datatype="">allanjones</a></span> </div>
+<div class="comment-created"><span property="dc:date dc:created" content="2014-02-06T09:43:34+08:00" datatype="xsd:dateTime">Thu, 02/06/2014 - 09:43</span> </div>
+  <div class="content comment-content">
+    <span rel="sioc:reply_of" resource="./node/1.html" class="rdf-meta"></span><div class="field field-name-comment-body field-type-text-long field-label-hidden"><div class="field-items"><div class="field-item even" property="content:encoded">Love from rules</div></div></div>    
+      </div>
+
+	<div class="btn-reply">
+  <div data-role="controlgroup" data-type="horizontal"><a href="/"><a href="/user/login?destination=node/1">Log in</a> or <a href="/user/register?destination=node/1">register</a> to post comments</a></div>  	</div>
+</div>
+
+<div class="indented"><a id="comment-8"></a>
+<div class="comment clearfix" about="/comment/8#comment-8" typeof="sioc:Post sioct:Comment"  data-role="collapsible" data-collapsed="false">
+
+
+
+
+  
+    <h3 property="dc:title" datatype="">Reponse to Love from rules</h3>
+  
+ <div class="user-info">
+ 	  <div class="user-picture">
+    <a href="/user/7" title="View user profile."><img typeof="foaf:Image" src="./sites/default/files/styles/thumbnail/public/pictures/picture-7-1391234119.jpg?itok=T0YWmILM" alt="Raymund&#039;s picture" title="Raymund&#039;s picture" /></a>  </div>
+ 	<span rel="sioc:has_creator"><a href="/user/7" title="View user profile." class="username" xml:lang="" about="/user/7" typeof="sioc:UserAccount" property="foaf:name" datatype="">Raymund</a></span> </div>
+<div class="comment-created"><span property="dc:date dc:created" content="2014-02-06T23:22:43+08:00" datatype="xsd:dateTime">Thu, 02/06/2014 - 23:22</span> </div>
+  <div class="content comment-content">
+    <span rel="sioc:reply_of" resource="./node/1.html" class="rdf-meta"></span><span rel="sioc:reply_of" resource="/comment/7#comment-7" class="rdf-meta"></span><div class="field field-name-comment-body field-type-text-long field-label-hidden"><div class="field-items"><div class="field-item even" property="content:encoded">Reponse to Love from rules</div></div></div>    
+      </div>
+
+	<div class="btn-reply">
+  <div data-role="controlgroup" data-type="horizontal"><a href="/"><a href="/user/login?destination=node/1">Log in</a> or <a href="/user/register?destination=node/1">register</a> to post comments</a></div>  	</div>
+</div>
+</div><a id="comment-9"></a>
+<div class="comment clearfix" about="/comment/9#comment-9" typeof="sioc:Post sioct:Comment"  data-role="collapsible" data-collapsed="false">
+
+
+
+
+  
+    <h3 property="dc:title" datatype="">Test4</h3>
+  
+ <div class="user-info">
+ 	  <div class="user-picture">
+    <a href="/user/7" title="View user profile."><img typeof="foaf:Image" src="./sites/default/files/styles/thumbnail/public/pictures/picture-7-1391234119.jpg?itok=T0YWmILM" alt="Raymund&#039;s picture" title="Raymund&#039;s picture" /></a>  </div>
+ 	<span rel="sioc:has_creator"><a href="/user/7" title="View user profile." class="username" xml:lang="" about="/user/7" typeof="sioc:UserAccount" property="foaf:name" datatype="">Raymund</a></span> </div>
+<div class="comment-created"><span property="dc:date dc:created" content="2014-02-08T15:25:28+08:00" datatype="xsd:dateTime">Sat, 02/08/2014 - 15:25</span> </div>
+  <div class="content comment-content">
+    <span rel="sioc:reply_of" resource="./node/1.html" class="rdf-meta"></span><div class="field field-name-comment-body field-type-text-long field-label-hidden"><div class="field-items"><div class="field-item even" property="content:encoded">Test4</div></div></div>    
+      </div>
+
+	<div class="btn-reply">
+  <div data-role="controlgroup" data-type="horizontal"><a href="/"><a href="/user/login?destination=node/1">Log in</a> or <a href="/user/register?destination=node/1">register</a> to post comments</a></div>  	</div>
+</div>
+</div>
+
+ <!-- Raymund hide this for duplicate button showed on the page. This was located on the bottom of the page --></div>
+  </div>
+    </div>
+  
+  
+  
+  
+  
+  
+</div>  </div>
+</div>
+  </div>
+			</div>
+			<!-- /.content-primary -->
+			<div data-role="panel" data-display="overlay" id="nav-panel">
+            
+         
+				<!--<div data-role="panel" id="defaultpanel" class="content-secondary" data-display="push">-->
+				<a href="#" class="ui-btn ui-shadow ui-icon-carat-l ui-btn-icon-notext ui-btn-b ui-btn-inline" data-theme="b" data-position="right" data-rel="close">CLOSE</a>
+				<!--	<span><a href="#" data-rel="close">Close menu</a></span>-->
+                
+              
+			<!--	<ul class="jqm-list ui-alt-icon ui-nodisc-icon ui-listview">-->
+										<!--	<div class="navigation">-->
+                    
+                    
+                      <!--<ul data-role="listview" data-inset="true" class="jqm-list ui-alt-icon ui-nodisc-icon ui-listview">-->
+             <!-- <ul data-role="listview" data-inset="true" class="jqm-list ui-alt-icon ui-nodisc-icon ui-listview">-->
+       
+            <ul data-role="listview" data-inset="true">
+               	<li data-icon="home"><a href="/">Home</a></li>
+                <li data-icon="tag"><a href="/social">Social</a></li>
+                <li data-icon="comment"><a href="/shout">Shout out</a></li>
+                <li data-icon="star"><a href="/what">What's in</a></li>
+                <li data-icon="check"><a href="/vote">Vote</a></li>
+                <li data-icon="mail"><a href="/topping-suggestion">Topping Suggestions</a></li>
+                  
+					<h2>Main Menu</h2><ul id="main-menu" class="links inline clearfix" data-role="listview" data-inset="true" data-theme="a" data-divider-theme="a" data-count-theme="a" data-split-theme="a" data-split-icon="arrow-r"><li data-icon="arrow-r" class="menu-749 first"><a href="./index.html">Welcome</a></li>
+<li data-icon="arrow-r" class="menu-218"><a href="./index.html" title="">Home</a></li>
+<li data-icon="arrow-r" class="menu-639"><a href="/social" title="">Social</a></li>
+<li data-icon="arrow-r" class="menu-652"><a href="/shout" title="Promotional page">Shout out</a></li>
+<li data-icon="arrow-r" class="menu-650"><a href="/what" title="">What&#039;s in?</a></li>
+<li data-icon="arrow-r" class="menu-646 active-trail active"><a href="/vote" class="active-trail active">Vote</a></li>
+<li data-icon="arrow-r" class="menu-748 last"><a href="./topping-suggestion.html">Topping Suggestion</a></li>
+</ul> <h2>Secondary Menu</h2> 
+					<!-- #navigation -->
+					                 
+										<div class="sidebar-first" class="column sidebar">
+                     <div class="region region-sidebar-first">
+    <div id="block-system-main-menu" class="block block-system block-menu">
+
+    
+  <div class="content">
+    <ul class="menu"  data-theme="a" data-role="listview" data-inset="true" data-divider-theme="a" data-count-theme="a" data-split-theme="a" data-split-icon="arrow-r"><li class="first leaf"><a href="./index.html">Welcome</a></li>
+<li class="leaf"><a href="./index.html" title="">Home</a></li>
+<li class="leaf"><a href="/social" title="">Social</a></li>
+<li class="leaf"><a href="/shout" title="Promotional page">Shout out</a></li>
+<li class="leaf"><a href="/what" title="">What&#039;s in?</a></li>
+<li class="leaf active-trail"><a href="/vote" class="active-trail active">Vote</a></li>
+<li class="last leaf"><a href="./topping-suggestion.html">Topping Suggestion</a></li>
+</ul>  </div>
+</div>
+  </div>
+				
+			
+				</div><!-- /#sidebar-first -->
+            
+            </div><!-- /panel -->
+			
+			            
+            
+            <div data-role="panel" data-position="right" data-display="reveal" data-theme="a" id="add-form">
+						</div>
+			<!-- /.content-secondary -->
+		</div>
+		<div id="footer"  data-theme="a" data-position="inline" data-role="footer"> 		</div>
+		<!-- /#footer -->
+	</div>
+	<!-- /#page -->  <script type="text/javascript">var islrsharing = true; var islrsocialcounter = true;var hybridsharing = true;</script> <script type="text/javascript" src="//share.loginradius.com/Content/js/LoginRadius.js" id="lrsharescript"></script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+LoginRadius.util.ready(function () { $i = $SS.Interface.horizontal; $SS.Providers.Top = ["facebook","twitter","linkedin","google"]; $u = LoginRadius.user_settings; $u.apikey="ad34f7ed-75af-48c4-8fcb-2ee71b9c1b83";$u.sharecounttype='url'; $i.size = 32;$i.show("lrsharecontainer"); });
+//--><!]]>
+</script>
+</body>
+</html>
